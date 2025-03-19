@@ -1,0 +1,40 @@
+# 🚀 Ignore model files (prevents large files from being uploaded)
+models/
+*.bin
+*.pt
+*.h5
+
+# Ignore training logs & checkpoints
+logs/
+checkpoints/
+wandb/
+*.log
+*.out
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environments (if using venv)
+venv/
+.venv/
+env/
+.env/
+
+# Ignore system files (Windows & macOS)
+.DS_Store
+Thumbs.db
+
+# Ignore large datasets (optional)
+data/
+*.csv
+*.json
+*.txt
+
+# Ignore Hugging Face cache (if using transformers)
+~/.cache/huggingface/
